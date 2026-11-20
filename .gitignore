@@ -1,0 +1,39 @@
+# Dependencies and generated output
+node_modules/
+/dist/
+/release/
+*.tsbuildinfo
+/coverage/
+/.vite/
+/.cache/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+tencent-docs-auth*.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# OCR cache and downloaded language data
+*.traineddata
+*.traineddata.gz
+*.traineddata.cache
+
+# Editor, OS and local agent files
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+.codex/
+.agents/
